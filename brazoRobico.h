@@ -6,12 +6,13 @@ class BrazoRobotico (){
 		int x;
 		int y;
 		int z;
-		bool sujetado;
+		bool sujetando;
 	public
 		BrazoRobotico ();
 		int getX();
 		int getY();
 		int getZ();
+		bool getSujetando;
 		void coger();
 		void soltar();
 		void mover(double _x, double _y, double _z);
